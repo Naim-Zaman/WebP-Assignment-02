@@ -1,0 +1,199 @@
+/***********************************
+      01.Header area
+************************************/
+.bg_color{
+    background-color: #FFF9F4;
+}
+.custom_space{
+    padding-left: 20px;
+}
+
+
+/**********************************
+      02.Product area
+***********************************/
+.product-contain-area{
+    height: 600px;
+}
+.text_area{
+    padding-left:9%;
+}
+#text_area_header{
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color:#FA804C;
+    margin-bottom: 0px;
+}
+#text_area_header_01{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    color:#363958;
+    margin-top:-5%;
+}
+.btn_area{
+    padding:12px 12px;
+    border-radius: 5px;
+    background-color: #3847CF;
+}
+.spac_bg{
+    margin-left: 9%;
+}
+
+/**********************************
+    03.Shoes Product area
+***********************************/
+.shoes_product_area h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.product_bg_color{
+    background-color: #F1F1F1;
+    border-radius: 7%;
+}
+.bg_footer_color{
+    background-color: #ffffff;
+}
+.price_color{
+    color:#FA804C;
+    font-size: 30px;
+}
+.border_area{
+    border: 0px;
+}
+.card img{
+    height:300px;
+}
+.price_area{
+    margin-right: 29%;
+}
+span{
+    font-size: 35px;
+    color:#FA804C;
+    font-weight: 500;
+}
+.space_btn{
+    padding:12px 10px;
+    background-color: #3847CF;
+    border-radius: 0.5em;
+}
+.radius_border{
+    border-radius: 1em !important;
+}
+
+/************************************
+    03.Formal Shoes Product area
+*************************************/
+.formalshoes_product_area h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.price_color{
+    color:#FA804C;
+    font-size: 30px;
+}
+.border_area{
+    border: 0px;
+}
+.area_p_set{
+    margin-top: 0;
+}
+
+/************************************
+        04.Shoping area
+*************************************/
+.shoping_area{
+    margin-top: 5%;
+}
+.shop_img img{
+    width: 70px;
+    height: 70px;
+}
+.width_set{
+    width: 100%;
+    height: 300px;
+    margin-left: 8%;
+}
+.cart_width{
+    height: 140px;
+}
+.cart_width h3{
+    font-size: 25px;
+    color:#363958;
+    padding-left: 8%;
+    font-weight: 700;
+}
+.cart_width p{
+    color: #000;
+    padding-left: 8%;
+}
+
+/************************************
+        05.Contact Us area
+*************************************/
+.contact_us_area{
+    margin-top: 3%;
+}
+.width_set_01 img{
+    width: 100%;
+    height: 100%;
+}
+.form_width_set{
+    width:50%;
+}
+.space_btn_01{
+    padding: 1.5% 5%;
+    margin-left: 3%;
+}
+#spacing_set{
+    margin-top: 10%;
+    margin-bottom: 3%;
+    display: block;
+    color: #4169B2;
+}
+#spacing_set_01{
+    padding-bottom: 5%;
+}
+
+/************************************
+        06.Footer area
+*************************************/
+.footer_area{
+    width: 100%;
+    height: 60px;
+    background-color: #f2f2f2;
+    line-height: 60px;
+}
+
+ /**********************************
+        Responsive Design   
+***********************************/
+@media (max-width:576px) {
+    .res_position_set{
+        padding-bottom: 100px;
+        display: block;
+    }
+    .res_img_pos img{
+        margin-bottom: -6px;
+        display: block;
+    }
+    .shoes_product_area h1 {
+        font-family: 'Teko', sans-serif;
+        font-size: 50px;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .product-contain-area{
+        height: 830px;
+    }
+    #spacing_set {
+        margin-top: -20%;
+    }
+    .spac_bg{
+        display: none;
+    }
+
+}
